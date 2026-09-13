@@ -3,5 +3,261 @@
 @layer base {
   body {
     font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: background-color 0.25s ease, color 0.25s ease;
   }
+}
+
+/* ==========================================================================
+   THEME 1: ACADEMIC INDIGO (Default Light Theme)
+   ========================================================================== */
+.theme-indigo {
+  --primary-accent: #4f46e5;
+  --primary-hover: #4338ca;
+}
+
+/* ==========================================================================
+   THEME 2: MIDNIGHT DEV (High-Contrast Obsidian & Emerald Dark Theme)
+   ========================================================================== */
+.theme-midnight body {
+  background-color: #080c14 !important;
+  color: #f1f5f9 !important;
+}
+
+.theme-midnight .bg-slate-50,
+.theme-midnight main {
+  background-color: #080c14 !important;
+}
+
+.theme-midnight .bg-white {
+  background-color: #0f172a !important;
+  color: #f8fafc !important;
+}
+
+.theme-midnight .bg-slate-100 {
+  background-color: #1e293b !important;
+  color: #e2e8f0 !important;
+}
+
+.theme-midnight .bg-slate-200 {
+  background-color: #334155 !important;
+}
+
+.theme-midnight .bg-slate-900 {
+  background-color: #030712 !important;
+  border-color: #1e293b !important;
+}
+
+.theme-midnight .border-slate-100,
+.theme-midnight .border-slate-200,
+.theme-midnight .border-slate-300 {
+  border-color: #1e293b !important;
+}
+
+.theme-midnight .text-slate-900,
+.theme-midnight .text-slate-800 {
+  color: #f8fafc !important;
+}
+
+.theme-midnight .text-slate-700,
+.theme-midnight .text-slate-600 {
+  color: #cbd5e1 !important;
+}
+
+.theme-midnight .text-slate-500,
+.theme-midnight .text-slate-400 {
+  color: #94a3b8 !important;
+}
+
+.theme-midnight input,
+.theme-midnight textarea,
+.theme-midnight select {
+  background-color: #111827 !important;
+  color: #f8fafc !important;
+  border-color: #334155 !important;
+}
+
+.theme-midnight input::placeholder,
+.theme-midnight textarea::placeholder {
+  color: #64748b !important;
+}
+
+.theme-midnight .bg-indigo-600 {
+  background-color: #10b981 !important;
+}
+
+.theme-midnight .hover\:bg-indigo-700:hover {
+  background-color: #059669 !important;
+}
+
+.theme-midnight .text-indigo-600,
+.theme-midnight .text-indigo-700,
+.theme-midnight .text-indigo-800 {
+  color: #34d399 !important;
+}
+
+.theme-midnight .bg-indigo-50 {
+  background-color: rgba(16, 185, 129, 0.12) !important;
+  color: #6ee7b7 !important;
+}
+
+.theme-midnight .border-indigo-100,
+.theme-midnight .border-indigo-200 {
+  border-color: rgba(16, 185, 129, 0.28) !important;
+}
+
+.theme-midnight .bg-gradient-to-tr.from-indigo-600.to-violet-600 {
+  background-image: linear-gradient(to top right, #059669, #10b981) !important;
+}
+
+.theme-midnight footer {
+  background-color: #0b1120 !important;
+  border-color: #1e293b !important;
+}
+
+.theme-midnight header {
+  background-color: rgba(15, 23, 42, 0.92) !important;
+  border-color: #1e293b !important;
+}
+
+/* ==========================================================================
+   THEME 3: SUNSET AMBER (Warm Energetic Terracotta Theme)
+   ========================================================================== */
+.theme-sunset body {
+  background-color: #fffbf5 !important;
+  color: #1c1917 !important;
+}
+
+.theme-sunset .bg-slate-50,
+.theme-sunset main {
+  background-color: #fffbf5 !important;
+}
+
+.theme-sunset .bg-indigo-600 {
+  background-color: #ea580c !important;
+}
+
+.theme-sunset .hover\:bg-indigo-700:hover {
+  background-color: #c2410c !important;
+}
+
+.theme-sunset .text-indigo-600,
+.theme-sunset .text-indigo-700 {
+  color: #ea580c !important;
+}
+
+.theme-sunset .bg-indigo-50 {
+  background-color: rgba(234, 88, 12, 0.1) !important;
+  color: #c2410c !important;
+}
+
+.theme-sunset .border-indigo-100,
+.theme-sunset .border-indigo-200 {
+  border-color: rgba(234, 88, 12, 0.25) !important;
+}
+
+.theme-sunset .bg-gradient-to-tr.from-indigo-600.to-violet-600 {
+  background-image: linear-gradient(to top right, #ea580c, #f59e0b) !important;
+}
+
+.theme-sunset .border-slate-200 {
+  border-color: #fed7aa !important;
+}
+
+/* ==========================================================================
+   THEME 4: OCEAN CYBER (Deep Tech Sapphire & Teal Theme)
+   ========================================================================== */
+.theme-nordic body {
+  background-color: #070d18 !important;
+  color: #f1f5f9 !important;
+}
+
+.theme-nordic .bg-slate-50,
+.theme-nordic main {
+  background-color: #070d18 !important;
+}
+
+.theme-nordic .bg-white {
+  background-color: #0f1b2d !important;
+  color: #f1f5f9 !important;
+}
+
+.theme-nordic .bg-slate-100 {
+  background-color: #16263d !important;
+  color: #e2e8f0 !important;
+}
+
+.theme-nordic .bg-slate-900 {
+  background-color: #040810 !important;
+  border-color: #1e3a5f !important;
+}
+
+.theme-nordic .border-slate-100,
+.theme-nordic .border-slate-200,
+.theme-nordic .border-slate-300 {
+  border-color: #1a2f4c !important;
+}
+
+.theme-nordic .text-slate-900,
+.theme-nordic .text-slate-800 {
+  color: #f8fafc !important;
+}
+
+.theme-nordic .text-slate-700,
+.theme-nordic .text-slate-600 {
+  color: #cbd5e1 !important;
+}
+
+.theme-nordic .text-slate-500,
+.theme-nordic .text-slate-400 {
+  color: #94a3b8 !important;
+}
+
+.theme-nordic input,
+.theme-nordic textarea,
+.theme-nordic select {
+  background-color: #122035 !important;
+  color: #f8fafc !important;
+  border-color: #1a2f4c !important;
+}
+
+.theme-nordic input::placeholder,
+.theme-nordic textarea::placeholder {
+  color: #64748b !important;
+}
+
+.theme-nordic .bg-indigo-600 {
+  background-color: #0284c7 !important;
+}
+
+.theme-nordic .hover\:bg-indigo-700:hover {
+  background-color: #0369a1 !important;
+}
+
+.theme-nordic .text-indigo-600,
+.theme-nordic .text-indigo-700 {
+  color: #38bdf8 !important;
+}
+
+.theme-nordic .bg-indigo-50 {
+  background-color: rgba(2, 132, 199, 0.15) !important;
+  color: #38bdf8 !important;
+}
+
+.theme-nordic .border-indigo-100,
+.theme-nordic .border-indigo-200 {
+  border-color: rgba(2, 132, 199, 0.3) !important;
+}
+
+.theme-nordic .bg-gradient-to-tr.from-indigo-600.to-violet-600 {
+  background-image: linear-gradient(to top right, #0284c7, #06b6d4) !important;
+}
+
+.theme-nordic footer {
+  background-color: #0a1322 !important;
+  border-color: #1a2f4c !important;
+}
+
+.theme-nordic header {
+  background-color: rgba(15, 27, 45, 0.92) !important;
+  border-color: #1a2f4c !important;
 }

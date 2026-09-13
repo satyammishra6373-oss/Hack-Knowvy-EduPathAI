@@ -10,6 +10,7 @@ import {
 } from 'lucide-react';
 import { StudentProfile } from '../../types';
 import { SAMPLE_STUDENTS } from '../../data/mockData';
+import { ThemeSelector } from './ThemeSelector';
 
 interface NavbarProps {
   currentView: 'student' | 'faculty';
@@ -80,8 +81,10 @@ export const Navbar: React.FC<NavbarProps> = ({
             </button>
           </div>
 
-          {/* Right actions: Student Switcher / Profile */}
-          <div className="flex items-center gap-3">
+          {/* Right actions: Theme Selector + Student Switcher / Profile */}
+          <div className="flex items-center gap-2.5">
+            <ThemeSelector />
+
             {currentView === 'student' ? (
               <div className="relative group">
                 <button

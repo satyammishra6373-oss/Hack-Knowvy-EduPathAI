@@ -1,0 +1,6 @@
+{
+  "name": "EduPath AI",
+  "description": "AI-powered career readiness platform that analyzes Indian college engineering students' skills, projects, and goals against industry benchmarks to generate personalized skill-gap diagnostics and 30/60/90-day placement roadmaps.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
